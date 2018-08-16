@@ -1,8 +1,7 @@
-i=0
-a=3
-if(i<a):
- print("a is pasitive")
-elif(i>3):
- print("a is negative")
+n=int(input())
+if(n>0):
+	print("Positive")
+elif(n<0):
+	print("Negative")
 else:
- print("a is zero")
+	print("zero")
